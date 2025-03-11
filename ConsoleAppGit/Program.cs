@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World12345");
+﻿
 
 
 //Write a program to print the sum of two numbers
