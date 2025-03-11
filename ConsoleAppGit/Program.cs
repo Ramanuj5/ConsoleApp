@@ -8,7 +8,7 @@ public class ReverseString
 {
     public static void Main(String[] args)
     {
-        string str = "Hello World";
+        string str = "Enjoy code";
         char[] charArray = str.ToCharArray();
         Array.Reverse(charArray);
         string reverseString = new string(charArray);
