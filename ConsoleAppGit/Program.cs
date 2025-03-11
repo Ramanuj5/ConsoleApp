@@ -1,18 +1,18 @@
 ﻿
 
 
-//Write a program to print the sum of two numbers
-public class SumOfTwoNumbers
+
+//Write a c# program demonstarte reverse of a string
+
+public class ReverseString
 {
     public static void Main(String[] args)
     {
-        int a = 10;
-        int b = 20;
-
-        int sum = a + b;
-        Console.WriteLine("Sum of a and b is: " + sum);
+        string str = "Hello World";
+        char[] charArray = str.ToCharArray();
+        Array.Reverse(charArray);
+        string reverseString = new string(charArray);
+        Console.WriteLine("Reverse of string is: " + reverseString);
     }
-}   
-
-
+}
 
